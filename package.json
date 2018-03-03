@@ -1,6 +1,6 @@
 {
   "name": "get-azfunc-masterkey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get master key for an Azure functionapp",
   "main": "index.js",
   "bin": "./cli.js",
