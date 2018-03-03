@@ -1,4 +1,7 @@
+#!/usr/bin/env node
+
 const getMasterkey = require('./index');
+const path = require('path');
 
 (() => {
     if (process.argv.length !== 3) {
@@ -6,7 +9,7 @@ const getMasterkey = require('./index');
         process.exit(1);
     }
     let authFilePath = (!process.argv[2].startsWith('/')) ?
-        `./${process.argv[2]}` : process.argv[2];
+        path.join(process.cwd(), process.argv[2]) : process.argv[2];
     let authJsonFile;
     try {
         authJsonFile = require(authFilePath);
