@@ -1,0 +1,15 @@
+{
+  "name": "get-azfunc-masterkey",
+  "version": "1.0.0",
+  "description": "Get master key for an Azure functionapp",
+  "main": "index.js",
+  "bin": "./cli.js",
+  "repository": "https://github.com/rcastill/get-azfunc-masterkey",
+  "author": "Rodolfo Castillo Mateluna <rodolfocastillomateluna@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "request": "^2.83.0",
+    "xmldom": "^0.1.27"
+  }
+}
