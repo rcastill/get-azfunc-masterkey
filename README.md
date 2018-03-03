@@ -1,4 +1,4 @@
-#Get Azure Functionapp master key
+# Get Azure Functionapp master key
 
 The name of this module is very self-explanaitory. It is useful when you want to automate an Azure Functionapp deployment.
 
